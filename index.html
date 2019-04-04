@@ -1,1 +1,135 @@
-Hello WOrld
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="img/logo.png">
+  <title>Stephen Lau Portfolio</title>
+
+  <!-- external style sheets -->
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- my style sheets -->
+
+  <!-- external scripts  -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <link href="css/styles.css" rel="stylesheet">
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88415896-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+  <script type="text/javascript">
+    $(window).scroll(function(){
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+    });
+  </script>
+</head>
+
+<!-- <body background="img/bg.png"> -->
+<body>
+<nav class="nav-bar-nav">
+  <div class="nav-left-home">
+    <ul class="nav-bar-list">
+    <li class="nav-bar-link" id="nav-bar-link-name"><a href="index.html">Stephen L</a></li>
+  </ul>
+  </div>
+  <div class="nav-right-home">
+    <ul class="nav-bar-list">
+      <li class="nav-bar-link"><a href="index.html">Projects</a></li>
+      <li class="nav-bar-link"><a href="code.html">Code</a></li>
+      <li class="nav-bar-link"><a target="_blank" href="resume.pdf">Resume</a></li>
+      <li class="nav-bar-link"><a href="about.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+  <div class="container-fluid main-body">
+    <div class="intro-wrapper">
+      <div class="description-main">
+      <h1 class="about-heading">Hi I'm Stephen, I'm doing a double degree in Computer Science and Business at UWaterloo and Laurier.
+        People are at the center of my process, I like to design delightful experiences that solve everyday problems.
+      </h1><br>
+        <div class="links-wrapper">
+          <a href="mailto:stephenkala99@gmail.com"><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/stephenlau9/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+          <a href="https://github.com/ssmlau" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        </div><br><br>
+        <span class="line">_______</span>
+      </div>
+      <div class="project-section-wrapper" id="design-section-container">
+
+        <h1 class="design-page-heading" id="design">Projects</h1>
+          <div id="code-container">
+
+          <!--  FITTO -->
+           <div class="row design-row">
+             <a href="fitto.html">
+             <div id="design-project-2" class="col-md-6 project">
+               <img class="img-responsive" src="img/fitto.png" alt="">
+             </div>
+             </a>
+
+             <div class="col-md-6">
+               <div class="project-information">
+                 <h3 class="design-date">Jan 2019<br></h3>
+                 <p class="design-title">Making communication between trainers and clients simpler during independent workouts.</p>
+                 <div class="tag_case_study">#visual design</div>
+                 <div class="tag_case_study">#interaction design</div>
+                 <div class="tag_case_study">#user research</div>
+                  <div class="tag_case_study">#projectmanagent</div>
+                 <h5 class="design-description"></h5>
+                 <a href="fitto.html"><button type="button" class="design-read-study-btn">Read Case Study</button></a>
+               </div>
+             </div>
+
+           </div>
+
+           <!--  JOURNY -->
+            <div class="row design-row">
+              <a href="journy.html">
+              <div id="design-project-1" class="col-md-6 project">
+                <img class="img-responsive" src="img/journy.png" alt="">
+              </div></a>
+
+              <div class="col-md-6">
+                <div class="project-information">
+                  <h3 class="design-date">Jan 2019<br></h3>
+                  <p class="design-title">A journaling app to guide users through their journey to improve mental health.</p>
+                  <div class="tag_case_study">#visual design</div>
+                  <div class="tag_case_study">#interaction design</div>
+                  <h5 class="design-description"></h5>
+                  <a href="journy.html"><button type="button" class="design-read-study-btn">Read Case Study</button></a>
+                </div>
+              </div>
+
+            </div>
+           <!--  FOE -->
+            
+      </div>
+
+
+
+
+      </div>
+  <br><br><br><br>
+
+      <div class="project-section-wrapper">
+            
+        </div>
+      </div>
+      <p class="footer-text">Want to connect? Shoot me an <a href="mailto:stephenkala99@gmail.com">email</a>.</p>
+  </div>
+</body>
+</html>
