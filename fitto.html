@@ -7,317 +7,302 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-
   <link rel="icon" href="img/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
   <title>Stephen Lau Portfolio</title>
 
   <!-- external style sheets -->
   <link rel="stylesheet" href="css/animate.css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
   <!-- my style sheets -->
   <link href="css/styles.css" rel="stylesheet">
+  <link href="css/pages-styles.css" rel="stylesheet">
+
   <!-- external scripts  -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 
-  </script>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-88415896-1', 'auto');
-  ga('send', 'pageview');
-
-  </script>
   <script type="text/javascript">
     $(window).scroll(function(){
       $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
     });
   </script>
-
-
 </head>
 
+<!-- <body background="img/bg.png"> -->
 <body>
-  <nav class="nav-bar-nav">
-    <div class="nav-left-home">
-      <ul class="nav-bar-list">
-      <li class="nav-bar-link" id="nav-bar-link-name"><a href="index.html">Stephen L</a></li>
-    </ul>
-    </div>
-    <div class="nav-right-home">
-      <ul class="nav-bar-list">
-        <li class="nav-bar-link"><a href="index.html">Projects</a></li>
-        <li class="nav-bar-link"><a href="code.html">Code</a></li>
-        
+<nav class="nav-bar-nav">
+  <div class="nav-left-home">
+    <ul class="nav-bar-list">
+    <li class="nav-bar-link" id="nav-bar-link-name"><a href="index.html">Stephen L</a></li>
+  </ul>
+  </div>
+  <div class="nav-right-home">
+    <ul class="nav-bar-list">
+        <li class="nav-bar-link"><a href="index.html">Work</a></li>
+        <li class="nav-bar-link"><a href="code.html">Coding Projects</a></li>
         <li class="nav-bar-link"><a href="about.html">About</a></li>
-        <li class="nav-bar-link"><a target="_blank" href="resume.pdf"></a></li>
-      </ul>
+        <li class="nav-bar-link"><a target="_blank" href="resume.pdf">Resume</a></li>
+
+    </ul>
+  </div>
+</nav>
+  <div class="container-fluid main-body">
+    <!-- IMAGE  -->
+    <!--  TODO long one photo -->
+    <img class="img-responsive" src="img/fitto-long-cover.png" alt="">
+    <!-- OVERVIEW SUMMARY -->
+    <div class="case-study-section-container">
+      <div class="case-study-section-info-container case-study-wider-container row">
+        <div class="col-md-8">
+          <h3 class="case-study-small-title">Project Overview</h3>
+          <p class="case-study-small-text">Fitto is a personal project that was incepted after a chat with my friend who is a personal trainer. This mobile app helps trainers manage and track their clients, especially when they can’t be there in person to give feedback or tips.</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="case-study-small-title">Tools</h3>
+              <p class="case-study-small-text">Sketch</p>
+        </div>
+        <div class="col-md-8">
+          <h3 class="case-study-small-title">Tags</h3>
+          <p class="case-study-small-text">Interaction Design, Visual Design, Competitive Analysis, User Interviews</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="case-study-small-title">Timeline</h3>
+              <p class="case-study-small-text">Passion Project (1 week)</p>
+        </div>
+      </div>
     </div>
-  </nav>
-  <img class="case-img img-responsive" src="img/fitto-full-img.png" alt="">
-  <div class="container-fluid case-study">
-    <h1 class="portfolio-section-sub-heading">Fitto iOS App</h1>
-    <p class="portfolio-section-paragraph">Fitto is a mobile app that helps trainers coach clients when they can’t be there in person.</p>
-    <span class="line">_______</span>
-    <h1 class="portfolio-section-caps-heading">OVERVIEW</h1>
-    <h1 class="portfolio-section-sub-heading">About the Project</h1>
-    <p class="portfolio-quote">“How do we simplify the communication between trainers and clients when they can’t train in person?”</p>
-    <p class="portfolio-section-paragraph"><b>Timeline</b>: 1 week</p>
-    <p class="portfolio-section-paragraph"><b>Team</b>: Passion Project</p>
-    <p class="portfolio-section-paragraph"><b>Role</b>: Interaction Design, Visual Design, Competitive Research, User Interviews</p>
 
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-caps-heading">HOW IT BEGAN</h1>
-            <h1 class="portfolio-section-sub-heading">Project Context</h1>
-            <p class="portfolio-section-paragraph">This project idea originated from a discussion with my friend who is a personal trainer. He mentioned how his <b>workflow had a lot of repetition</b>: create a spreadsheet workout plan, send it to clients, schedule calls to go check in, update the workout plan and repeat. Furthermore, as an individual who tries to attend the gym regularly, the question was rather intriguing to me.</p>
-          </div>
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-caps-heading">DISCOVERING THE PROBLEM</h1>
-            <h1 class="portfolio-section-sub-heading">Initial Research</h1>
-            <p class="portfolio-section-paragraph">I interviewed my friend to get a better understanding of his pain points and the problem. I conducted interviews with two other trainers to see if they faced similar problems and to see what other problems they had.</p>
-          </div>
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">User Interviews</h1>
-            <p class="portfolio-section-paragraph"><b>Who are we designing for and what problems do they have?</b></p>
-            <p class="portfolio-section-paragraph">I asked them questions about their typical workflow for clients that train in person and clients that train independently. I learned about their pain points and troubles their clients had.</p>
-            <a data-toggle="lightbox" href="img/fitto-interviews.png">
-                <img class="img-responsive" src="img/fitto-interviews.png" alt="">
-            </a>
-          </div>
+    <div class="case-study-section-container shopify-alt-grey">
+      <div class="case-study-section-info-container">
+      <h3 class="case-study-small-header">HOW IT BEGAN</h3>
+      <h1 class="case-study-large-header">Project Context</h1>
+      <p class="case-study-paragraph">This project idea originated from a discussion with my friend who is a personal trainer. He mentioned how his <b>workflow had a lot of repetition</b>.</p>
+        <ol class="case-study-list">
+          <li>Create a spreadsheet workout plan</li>
+          <li>Send to client</li>
+          <li>Schedule calls to check in</li>
+          <li>Update and repeat</li>
+        </ol>
 
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">What I Learned About the Current Workflow</h1>
-            <p class="portfolio-section-paragraph">
-            <ol class="portfolio-list">
-            <li class="portfolio-list-item">Create a custom workout plan on a spreadsheet</li>
-            <li class="portfolio-list-item">Include exercises, reps, weights and links to videos for offline clients</li>
-            <li class="portfolio-list-item">Their clients either write comments on the spreadsheet or message them</li>
-            <li class="portfolio-list-item">They listen to the feedback/problems and give tips or adjust the workout</li>
-            </ol>
-          </p>
-          </div>
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">Key User Insights</h1>
+      </div>
+    </div>
+    <div class="case-study-section-container">
+      <div class="case-study-section-info-container">
+      <h3 class="case-study-small-header">DISCOVERING THE PROBLEM</h3>
+      <h1 class="case-study-large-header">User Interviews</h1>
+      <p class="case-study-paragraph">This was a space that I knew little about, so I conducted interviews with two other trainers to see if they faced similar problems and to see what other problems they had.</p>
+      <div class="paragraph-spacing"></div>
+      <p class="case-study-paragraph">I asked all three of them about their typical workflow for clients that train in person and clients that train independently. I learned about their pain points and troubles their clients had.</p>
 
-            <p class="portfolio-section-paragraph">From the user interviews, I condensed the findings into a few key user insights.</p>
-            <p class="portfolio-section-paragraph">
-              <ol class="portfolio-list">
-              <li class="portfolio-list-item">It’s difficult to remember to check up on a client's workout plan since they don't know when they commented with issues.</li>
-              <li class="portfolio-list-item">Sometimes it's difficult to keep track of client progress and it's easy to lose documents.</li>
-              <li class="portfolio-list-item">Clients tend to comment in different parts of the spreadsheet, making it hard to read sometimes.</li>
-              </ol>
-            </p>
-          </div>
+      <!-- TODO - change flow to be like, conductd interviews to find problems. Here are my insights with pictures. -->
+      <!-- <img class="img-responsive" src="img/fitto-interviews.png" alt=""> -->
+      <div class="large-spacing"></div>
+      <h1 class="case-study-large-header">Discovering a Major Problem</h1>
+      <p class="case-study-paragraph">After the interviews, I discovered a really interesting problem the trainers were facing with their remote clients.</p>
+      <p class="case-study-paragraph">Since these clients were training independently, they weren’t able to provide guidance in person. As a result, clients would comment on the spreadsheets if they had questions or were confused so the trainers could see the information later.</p>
+      <div class="paragraph-spacing"></div>
+      <a data-toggle="lightbox" href="img/fitto-problem.png">
+          <img class="img-responsive" src="img/fitto-problem.png" alt="">
+      </a>
 
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">Current Solution - Spreadsheet</h1>
-            <a data-toggle="lightbox" href="img/fitto-current.png">
-                <img class="img-responsive" src="img/fitto-current.png" alt="">
-            </a>
-          </div>
-
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">Current Solution - The Problem</h1>
-            <p class="portfolio-section-paragraph">The organization of commenting on the spreadsheets is a mess. Clients want to comment on specific sets or exercises.</p>
-            <a data-toggle="lightbox" href="img/fitto-problem.png">
-              <img class="img-responsive" src="img/fitto-problem.png" alt="">
-            </a>
-          </div>
+      <div class="large-spacing"></div>
+      <h1 class="case-study-large-header">Insights</h1>
+        <ol class="case-study-list">
+        <li class="">Difficult to give specific feedback on exercises or form when client is training remotely.</li>
+        <li class="">Clients are confused by exercises and often will leave notes on the spreadsheet so the trainer can follow up later.</li>
+        <li class="">Trainers come up with their own system to track client progress since the spreadsheets don’t have much functionality.</li>
+        </ol>
+      </div>
+    </div>
 
 
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">Competitive Analysis</h1>
-            <p class="portfolio-section-paragraph">I took a look at what kind of fitness apps already existed. There were 3 main categories of apps:</p>
-            <br><a data-toggle="lightbox" href="img/fitto-competitive-analysis.png">
-                <img class="img-responsive" src="img/fitto-competitive-analysis.png" alt="">
-            </a>
-            <br><br>
-            <p class="portfolio-section-paragraph">For this project, we are interested in personal coaching apps but researching what other fitness apps helped broaden my understanding of the problem.</p>
-          </div>
+    <div class="case-study-section-container shopify-alt-grey">
+      <div class="case-study-section-info-container">
+        <h3 class="case-study-small-header">SECONDARY RESEARCH</h3>
+      <h1 class="case-study-large-header">General Fitness Apps</h1>
+      <p class="case-study-paragraph">I took a look at what kind of fitness apps already existed. There were 3 main categories of apps:</p>
+      <div class="paragraph-spacing"></div>
+      <img class="img-responsive" src="img/fitto-competitive-analysis.png" alt="">
+      <div class="paragraph-spacing"></div>
+      <p class="case-study-paragraph">This research helped me understand the fitness space better but I did a deeper analysis of the other personal coaching apps on the market.</p>
+      <div class="paragraph-spacing"></div>
+      <h1 class="case-study-large-header">Competitive Analysis</h1>
+      <p class="case-study-paragraph">Out of all the personal coaching apps I looked at, FitSW and Trainerize were the most developed and had the most functionality so I analyzed them both further.</p>
+      <div class="paragraph-spacing"></div>
+      <img class="img-responsive" src="img/fitto-competitive-breakdown.png" alt="">
+      <div class="paragraph-spacing"></div>
+      <p class="case-study-paragraph">Both of these apps offered in-app messaging, but when I interviewed trainers, they said their clients preferred to use other messaging platforms.</p>
+      <p class="case-study-paragraph"><b>The problem was that messaging felt disjoint since clients would have to provide context on which exercise and set they were referring to</b>.</p>
+      </div>
+    </div>
 
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">Personal Coaching Apps</h1>
-            <p class="portfolio-section-paragraph">Many personal coaching apps already have hired trainers, but Fitto is meant to be a personal coaching app for any trainers to use. Of the apps I researched, FitSW and Trainerize were most similar.</p>
-            <br><a data-toggle="lightbox" href="img/fitto-competitive-breakdown.png">
-                <img class="img-responsive" src="img/fitto-competitive-breakdown.png" alt="">
-            </a>
-            <br><br>
-            <p class="portfolio-section-paragraph">For this project, we are interested in personal coaching apps but researching what other fitness apps helped broaden my understanding of the problem.</p>
-            <br><p class="portfolio-section-paragraph">Both of these apps had <b>in-app messaging</b>, but when I interviewed trainers, they said they already used messaging apps to communicate with their clients. They said that <b>clients tended to comment on the workout plan,</b>, rather than message them separately.</p>
-          </div>
+    <div class="case-study-section-container">
+      <div class="case-study-section-info-container">
+        <h3 class="case-study-small-header">DEFINING THE PROBLEM</h3>
+      <h1 class="case-study-large-header">Problem Statement</h1>
+      <p class="case-study-paragraph">It is difficult for trainers to communicate with their clients and give feedback when they train independently.</p>
+      <div class="large-spacing"></div>
+      <h1 class="case-study-large-header">Defining the Goals</h1>
+      <ol class="case-study-list">
+        <li >Make it easier to give feedback to clients who are not training in person.</li>
+        <li >Make it easier to track and manage client progress.</li>
+      </ol>
+      <div class="large-spacing"></div>
+      <h1 class="case-study-large-header">Assumption and Design Considerations</h1>
+      <ul class="case-study-list">
+        <li>Clients use their mobile phones at the gym already to track their workout</li>
+        <li>The trainers I interviewed were students but this solution can apply for all trainers</li>
+        <li>This experience is designed for when clients train independently without their trainers</li>
+      </ul>
+      </div>
+    </div>
+    <div class="case-study-section-container shopify-alt-light-grey">
+      <div class="case-study-section-info-container">
+      <h3 class="case-study-small-header">PROCESS</h3>
+      <!-- <h1 class="case-study-large-header">Tackling the Goals</h1>
+      <a data-toggle="lightbox" href="img/fitto-brainstorm.png">
+          <img class="img-responsive" src="img/fitto-brainstorm.png" alt="">
+      </a> -->
+      <!-- <div class="large-spacing"></div> -->
+      <h1 class="case-study-large-header">Proposed User Flows</h1>
+      <a data-toggle="lightbox" href="img/fitto-flows.png">
+          <img class="img-responsive" src="img/fitto-flows.png" alt="">
+      </a>
+      <div class="large-spacing"></div>
+      <h1 class="case-study-large-header">Information Architecture</h1>
+      <a data-toggle="lightbox" href="img/fitto-info-arch.png">
+          <img class="img-responsive" src="img/fitto-info-arch.png" alt="">
+      </a>
+      </div>
+    </div>
+    <div class="case-study-section-container">
+      <div class="case-study-section-info-container">
+      <h3 class="case-study-small-header">SOLUTION EXPLORATIONS</h3>
+      <h1 class="case-study-large-header">Goal 1: Providing Feedback Remotely</h1>
+      <a data-toggle="lightbox" href="img/fitto-explorations.png">
+          <img class="img-responsive" src="img/fitto-explorations.png" alt="">
+      </a>
+      <div class="paragraph-spacing"></div>
+      <p class="case-study-paragraph">I decided on <b>Solution C</b> since it makes it easier for clients to comment while working out and for trainers to reply back within the context of an exercise. During interviews, trainers said that <b>clients tend to need feedback on specific exercises</b>.</p>
+      <div class="large-spacing"></div>
 
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-caps-heading">DEFINING THE PROBLEM</h1>
-            <h1 class="portfolio-section-sub-heading">Problem Statement</h1>
-            <p class="portfolio-section-paragraph">It is difficult for trainers to communicate with their clients and give feedback when they train independently.</p>
-          </div>
-
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">Defining the Goals</h1>
-            <p class="portfolio-section-paragraph">
-              <ol class="portfolio-list">
-              <li class="portfolio-list-item">Make communication easier on a granular level (i.e. reps, exercises, etc)</li>
-              <li class="portfolio-list-item">Make it easier to check on clients comments and their progress to provide timely feedback</li>
-              </ol>
-            </p>
-          </div>
-
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">Assumptions and Design Considerations</h1>
-            <p class="portfolio-section-paragraph">
-              <ul class="portfolio-list">
-              <li class="portfolio-list-item">Clients use their mobile phones at the gym already to track their workout</li>
-              <li class="portfolio-list-item">The trainers I interviewed were students but this solution can apply for all trainers</li>
-              <li class="portfolio-list-item">This experience is designed for when clients train independently without their trainers</li>
-            </ul>
-            </p>
-          </div>
-
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-caps-heading">PROCESS</h1>
-            <h1 class="portfolio-section-sub-heading">Tackling the Goals</h1>
-            <a data-toggle="lightbox" href="img/fitto-brainstorm.png">
-                <img class="img-responsive" src="img/fitto-brainstorm.png" alt="">
-            </a>
-          </div>
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">Information Architecture & Structure</h1>
-            <a data-toggle="lightbox" href="img/fitto-info-arch.png">
-                <img class="img-responsive" src="img/fitto-info-arch.png" alt="">
-            </a>
-          </div>
-
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">User Flows</h1>
-            <p class="portfolio-section-paragraph">The two major flows for the 2 goals are <b>providing feedback</b> and <b>checking on a client's progress</b>.</p>
-            <a data-toggle="lightbox" href="img/fitto-flows.png">
-                <img class="img-responsive" src="img/fitto-flows.png" alt="">
-            </a>
-          </div>
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-caps-heading">SOLUTION EXPLORATIONS</h1>
-            <h1 class="portfolio-section-sub-heading">Goal 1: Granular Communication</h1>
-            <a data-toggle="lightbox" href="img/fitto-explorations.png">
-                <img class="img-responsive" src="img/fitto-explorations.png" alt="">
-            </a><br>
-            <p class="portfolio-section-paragraph">
-              I decided on <b>Solution C</b> since it makes it easier for clients to comment while working out and for trainers to reply back within the context of an exercise. During interviews, trainers said that <b>clients tend to need feedback on specific exercises</b>.
-            </p>
-          </div>
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">Goal 2: Client Management</h1>
-            <a data-toggle="lightbox" href="img/fitto-client-explorations.png">
-                <img class="img-responsive" src="img/fitto-client-explorations.png" alt="">
-            </a><br>
-            <p class="portfolio-section-paragraph">
-              I decided on <b>Solution D</b> since a tabbed view would make it easier to split up client information. The overview tab shows the most important information trainers care about and they can navigate to the timeline to see workout updates. Trainers can press "See More" for each section in the overview to see more programs, training sessions and progress charts.
-            </p>
-          </div>
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-caps-heading">SOLUTION</h1>
-            <h1 class="portfolio-section-sub-heading">Notifications from Clients</h1>
-            <p class="portfolio-section-paragraph"> <b>Solving Goal 1 & 2 - Granular Commenting & Staying Updated</b> </p>
-            <p class="portfolio-section-paragraph">When a client uploads an image or a comment, the trainer gets a notification to check if they need to give feedback.
-            This solves Goal 1 and 2 since trainers can reply and comment on a granular level (i.e. per exercise) and get notified to give timely feedback. By solving these goals, the pain points uncovered from the interview are solved.</p>
-            <br><a data-toggle="lightbox" href="img/fitto-notif.png">
-                <img class="img-responsive" src="img/fitto-notif.png" alt="">
-            </a>
-          </div>
-
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">Centralized Updates</h1>
-            <p class="portfolio-section-paragraph"> <b>Solving Goal 2 - Stay Updated with Client Notifications</b> </p>
-            <br><a data-toggle="lightbox" href="img/fitto-all-notifs.png">
-                <img class="img-responsive" src="img/fitto-all-notifs.png" alt="">
-            </a>
-
-          </div>
-
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">Making Client Management Easier</h1>
-            <p class="portfolio-section-paragraph"> <b>Solving Goal 2 - Track Progress Easily</b> </p>
-            <br><a data-toggle="lightbox" href="img/fitto-clients.png">
+      <h1 class="case-study-large-header">Goal 2: Client Management</h1>
+      <a data-toggle="lightbox" href="img/fitto-client-explorations.png">
+          <img class="img-responsive" src="img/fitto-client-explorations.png" alt="">
+      </a>
+      <div class="paragraph-spacing"></div>
+      <p class="case-study-paragraph">I decided on <b>Solution D</b> since a tabbed view would make it easier to split up client information. The overview tab shows the most important information trainers care about and they can navigate to the timeline to see workout updates. Trainers can press "See More" for each section in the overview to see more programs, training sessions and progress charts.</p>
+      </div>
+    </div>
+    <div class="case-study-section-container shopify-alt-grey">
+      <div class="case-study-section-info-container">
+          <h3 class="case-study-small-header">SOLUTION</h3>
+          <h1 class="case-study-large-header">Notifications from Clients</h1>
+          <p class="case-study-paragraph">Solving Goal 1 & 2 - Giving Feedback & Staying Updated</p>
+          <div class="paragraph-spacing"></div>
+          <p class="case-study-paragraph">When a client uploads an image or a comment, the trainer gets a notification to check if they need to give feedback.
+          This solves Goal 1 and 2 since trainers can reply and comment on a granular level (i.e. per exercise) and get notified to give timely feedback.</p>
+          <div class="paragraph-spacing"></div>
+          <a data-toggle="lightbox" href="img/fitto-notif.png">
+              <img class="img-responsive" src="img/fitto-notif.png" alt="">
+          </a>
+      <div class="large-spacing"></div>
+          <h1 class="case-study-large-header">Centralized Updates</h1>
+          <p class="case-study-paragraph">Solving Goal 2 - Stay Updated with Client Notifications</p>
+          <div class="paragraph-spacing"></div>
+          <a data-toggle="lightbox" href="img/fitto-all-notifs.png">
+              <img class="img-responsive" src="img/fitto-all-notifs.png" alt="">
+          </a>
+      <div class="large-spacing"></div>
+            <h1 class="case-study-large-header">Making Client Management Easier</h1>
+            <p class="case-study-paragraph">Solving Goal 2 - Track Progress Easily</p>
+            <div class="paragraph-spacing"></div>
+            <a data-toggle="lightbox" href="img/fitto-clients.png">
                 <img class="img-responsive" src="img/fitto-clients.png" alt="">
-            </a>
-            <br><a data-toggle="lightbox" href="img/fitto-client-overview.png">
+            </a><div class="paragraph-spacing"></div>
+            <a data-toggle="lightbox" href="img/fitto-client-overview.png">
                 <img class="img-responsive" src="img/fitto-client-overview.png" alt="">
-            </a>
-            <br><a data-toggle="lightbox" href="img/fitto-timeline.png">
+            </a><div class="paragraph-spacing"></div>
+            <a data-toggle="lightbox" href="img/fitto-timeline.png">
                 <img class="img-responsive" src="img/fitto-timeline.png" alt="">
             </a>
-          </div>
+      </div>
+    </div>
+    <div class="case-study-section-container shopify-alt-grey">
+      <div class="case-study-large-image">
+        <a data-toggle="lightbox" href="img/fitto-comp-section-1.png">
+            <img class="img-responsive" src="img/fitto-comp-section-1.png" alt="">
+        </a>
+      </div>
+      <div class="large-spacing"></div>
+    </div>
 
+    <div class="case-study-section-container  alt-1">
+      <div class="case-study-section-info-container">
+      <h3 class="case-study-small-header">REFLECTION</h3>
+      <h1 class="case-study-large-header">What I Learned</h1>
+      <p class="case-study-paragraph">This case study was completed over 1 week to learn more about the research phase of the design process. In this project, I focused on interviewing users and trying to identify problems trainers had. I researched solutions currently on the market and took a look at what they offered. I used both kinds of research to brainstorm solutions to problems I uncovered during user interviews. I had a lot of fun working on this and learned a lot about how to ask non-biased questions.</p>
+      <div class="large-spacing"></div>
+      <h1 class="case-study-large-header">What I'd Change</h1>
+      <p class="case-study-paragraph">In this project, I focused on independent workouts for the trainer but I'd like to work on designing the app for the clients as well to see how they interact with each other. Additionally, I would've liked to user test my designs to see if it is helping improve the workflow of trainers.</p>
+      </div>
+    </div>
 
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-sub-heading">Final Comps</h1>
-            <br><a data-toggle="lightbox" href="img/fitto-comps-1.png">
-                <img class="img-responsive" src="img/fitto-comps-1.png" alt="">
-            </a>
-            <br><a data-toggle="lightbox" href="img/fitto-comps-2.png">
-                <img class="img-responsive" src="img/fitto-comps-2.png" alt="">
-            </a>
-            <br><a data-toggle="lightbox" href="img/fitto-comps-3.png">
-                <img class="img-responsive" src="img/fitto-comps-3.png" alt="">
-            </a>
-          </div>
+    <div class="case-study-section-container shopify-alt-grey">
+      <div class="case-study-section-info-container">
+      <h1 class="case-study-large-header">Thanks for Reading ❤️</h1>
+      <p class="case-study-paragraph">If you’d like to hear more about this project or my other projects, feel free to send me an <a class="link-underline" href="mailto:stephenkala99@gmail.com">email</a>–I’d love to chat ☕.</p>
+      <div class="paragraph-spacing"></div>
+      </div>
+    </div>
 
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-caps-heading">NEXT STEPS</h1>
-            <h1 class="portfolio-section-sub-heading">Future</h1>
-              <p class="portfolio-section-paragraph">I will be working on adding workout plans next. Since it is difficult to edit long documents on phones, I'm researching different form inputs to simplify editing on mobile devices as well as creating a desktop web solution for creating and editing workout plans.</p>
-            <h1 class="portfolio-section-sub-heading">Testing</h1>
-            <p class="portfolio-section-paragraph">After I conduct more interviews and research to design the adding workouts feature, I plan to meet with the trainers to test the designs and iterate on the feedback.</p>
-          </div>
-
-          <div class="portfolio-section">
-            <h1 class="portfolio-section-caps-heading">FINAL WORDS</h1>
-            <h1 class="portfolio-section-sub-heading">What I Learned</h1>
-            <p class="portfolio-section-paragraph">This case study was completed over 1 week to learn more about the research phase of the design process. In this project, I focused on interviewing users and trying to identify problems trainers had. I researched solutions currently on the market and took a look at what they offered. I used both kinds of research to brainstorm solutions to problems I uncovered during user interviews. I had a lot of fun working on this and learned a lot about how to ask non-biased questions.</p>
-          </div>
-
-          <div class="row design-row">
-            <h1 class="portfolio-section-sub-heading">Check out my Other Projects</h1>
-            <div id="design-project-2" class="col-md-6 project">
-              <img class="img-responsive project-footer-img" src="img/journy.png" alt="">
+    <div class="case-study-section-container">
+      <div class="case-study-section-info-container case-study-wider-container">
+        <h1 class="case-study-large-header">My Other Projects</h1>
+        <p class="case-study-paragraph">If you'd like to see more, check out my other projects below!</p>
+        <div class="paragraph-spacing"></div>
+      
+      <div class="case-study-card-container col-md-6">
+        <div onclick="location.href='tcr.html';" class="case-study-card">
+          <div id="design-project-2" class=" project-image-container">
+            <img class="img-responsive project-image" src="img/tcr-new.png" alt="">
+            <div class="project-information">
+              <h3 class="design-date">2019 • Toronto Cat Rescue • Volunteering</h3>
+              <h1 class="design-title">Managing Cat Adoption</h1>
+              <h1 class="design-description">Centralizing data and streamlining processes to help volunteers help cats</h1>
+              <div class="tag_case_study">service design</div><div class="tag_case_study">user research</div><div class="tag_case_study">wireframing</div>
+              <a href="fitto.html"><button type="button" class="design-read-study-btn">Read Case Study →</button></a>
             </div>
-            <div class="col-md-6">
-              <div class="project-information-footer">
-                <p class="design-title-footer">Jan 2019</p>
-                <h5 class="design-description-footer">Journy</h5>
-                <a href="journy.html"><button type="button" class="design-read-study-btn">Read Case Study</button></a>
-              </div>
-            </div>
-
           </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      </div>
 
-          <div class="row design-row">
-            <div id="design-project-2" class="col-md-6 project">
-              <img class="img-responsive project-footer-img" src="img/foe.png" alt="">
-            </div>
-            <div class="col-md-6">
-              <div class="project-information-footer">
-                <p class="design-title-footer">Jul 2018</p>
-                <h5 class="design-description-footer">Friends of the Earth</h5>
-                <a href="foe.html"><button type="button" class="design-read-study-btn">Read Case Study</button></a>
-              </div>
-            </div>
 
-          </div>
-  </div>
+      <div class="contact-footer">
+        <h1 class="footer-header">Let's Connect</h1>
+        <h3 class="footer-description">I’d love to chat about anything - so let’s get some ☕</h3>
+        <p class="footer-links">
+          <a href="mailto:stephenkala99@gmail.com">Email</a>  &nbsp; • &nbsp;
+          <a target="_blank" href="resume.pdf">Resume</a>  &nbsp; •  &nbsp;
+          <a href="https://www.linkedin.com/in/stephenlau9/" target="_blank">LinkedIn</a> &nbsp; •&nbsp;
+          <a href="https://medium.com/@slau9" target="_blank">Medium</a>
+        </p>
+      </div>
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-  <script type="text/javascript">
-  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-              event.preventDefault();
-              $(this).ekkoLightbox();
-          });
-  </script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+      <script type="text/javascript">
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                  event.preventDefault();
+                  $(this).ekkoLightbox();
+              });
+      </script>
 </body>
 </html>

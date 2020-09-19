@@ -1,14 +1,190 @@
+
 /* GLOBAL STYLES */
 * {
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: 'DM Sans', 'Helvetica', 'Arial', sans-serif;
   color: #212121;
-  font-weight: lighter;
-  font-size: 1em;
-  color: #212121;
+  /* font-size: 1rem; */
+  font-weight: 400;
 }
 
+.container-fluid.main-body {
+  padding: 0;
+}
+
+/* INDEX PAGE  */
+h1.bold {
+  font-weight: 700;
+}
+
+.description-main, .about-me-section {
+  max-width: 780px;
+  padding-top: 100px;
+  margin: auto;
+}
+
+.about-me-section {
+  max-width: 600px;
+}
+
+.index-heading {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.index-description {
+  font-size: 1.25em;
+  font-size: 20px;
+  padding: 8px 0;
+}
+
+.index-sub-description {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+
+/* WORK SECTION */
+
+.section-heading {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.project-section-wrapper {
+  max-width: 780px;
+  margin: auto;
+  padding-top: 80px;
+}
+
+/* WORK PROJECT CARD */
+
+  .row.design-row {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+
+  .design-row:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 6px 20px 0 rgba(0, 0, 0, 0.03); /** TODO */
+    top: -10px;
+  }
+
+
+  .project-image-container {
+    padding: 0;
+
+  }
+
+  .project-information {
+    padding: auto 0;
+  }
+
+
+  .design-date {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .design-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 4px 0 0;
+  }
+
+  .design-description {
+    font-size: 16px;
+    margin: 8px 0 8px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .project-information .tag_case_study {
+    background-color: #eee;
+    margin: 0 12px 0 0;
+    color: gray;
+    border-radius: 2px;
+    font-size: 11px;
+    display: inline-block;
+    padding: 4px 8px;
+  }
+  /* #shopify-case-study .tag_case_study {
+    color: #385525;
+    background-color: #CFEDCB;
+  } */
+  .design-read-study-btn {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #2C2C2C;
+    padding: 8px 16px;
+    margin-top: 24px;
+    border-radius: 2px;
+    border: none;
+
+  }
+
+  .design-read-study-btn:hover, .design-read-study-btn:focus, .design-read-study-btn:active {
+    background-color: #dd4242;
+    outline: none;
+  }
+
+
+
+/*  FOOTER */
+.contact-footer {
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding-bottom: 56px;
+  margin-top: 32px;
+}
+
+.footer-header {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 32px 0 0;
+}
+
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 24px 0;
+}
+
+
+/* OTHER PAGES */
+
+.other-pages-main {
+  max-width: 780px;
+  padding-top: 32px;
+  margin: auto;
+}
+.fun-each-section-container {
+  margin-bottom: 88px;
+}
+
+.fun-paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+
+
+/*  -------- */
 a {
   color: #FF1744;
+}
+
+a.link-underline {
+  text-decoration: underline;
 }
 a:hover, a:active, a:focus {
   text-decoration: underline;
@@ -16,9 +192,7 @@ a:hover, a:active, a:focus {
   outline: none;
 }
 
-.container-fluid.main-body {
-  padding: 0;
-}
+
 
 #name-logo {
   line-height: 50px;
@@ -71,22 +245,17 @@ a:hover, a:active, a:focus {
   margin: 0 16px 0 0 ;
 }
 
-.description-main {
-  width: 81%;
-  margin: auto;
-}
+
 
 .container-fluid {
   padding: 0;
 }
 
 .intro-wrapper {
-  padding: 6.5em 100px 1em;
+  padding-top: 100px;
 }
 
-.project-section-wrapper {
-  padding: 16px 100px;
-}
+
 
 i {
   color: #FF5252;
@@ -136,13 +305,6 @@ a.project-tab-bar-current {
   margin: 0;
 }
 
-.project, .design-project {
-  /* border: 20px solid white;
-  border-left: none; */
-  /* padding: 0; */
-  padding-left: 0;
-}
-
 .art-project {
   padding: 0;
   border-bottom: 20px solid white;
@@ -152,10 +314,6 @@ a.project-tab-bar-current {
   background: blue;
 }
 
-.project-information {
-  padding: 36px 0;
-  padding-top: 24px;
-}
 
 .project-title {
   margin: 16px 0 0;
@@ -227,88 +385,6 @@ a.project-tab-bar-current {
 }
 
 
-
-/*  DESIGN PAGE STYLES */
-
-.design-page-heading {
-  font-weight: lighter;
-  padding-bottom: 24px;
-  font-size: 28px;
-}
-
-.project-information .tag_case_study {
-  background-color: #eee;
-  color: gray;
-  border-radius: 40px;
-  font-size: 11px;
-  display: inline-block;
-  padding: 4px 16px;
-}
-
-.design-read-study-btn {
-  margin: 4px 4px 0;
-  padding: 12px 36px;
-  margin-top: 16px;
-  border-radius: 100px;
-  background-color: #FF5252;
-  font-size: 16px;
-  font-family: 'Helvetica', sans-serif;
-  border: none;
-}
-
-.design-read-study-btn {
-  color: white;
-}
-
-.design-read-study-btn:hover, .design-read-study-btn:focus, .design-read-study-btn:active {
-  background-color: #dd4242;
-  outline: none;
-}
-
-.design-title {
-  font-size: 24px;
-  font-weight: lighter;
-}
-
-.design-date {
-  margin-top: 0;
-  font-size: 16px;
-  font-weight: lighter;
-  color: #777;
-}
-
-.design-row {
-  border-bottom: 1px solid #eee;
-  margin: 48px 0;
-}
-
-.container-fluid.case-study {
-  padding: 0 auto;
-}
-
-.portfolio-body, .case-study {
-  width: 60%;
-  margin-left:auto;
-  margin-right:auto;
-}
-
-.case-study {
-  padding-top: 64px;
-  width: 50%;
-}
-
-.about-me-body {
-  width: 60%;
-  margin-left:auto;
-  margin-right:auto;
-}
-
-.about-me-section {
-  padding: 0 88px;
-  margin-top: 88px;
-}
-
-
 .portfolio-section {
   margin: 72px 0;
 }
@@ -362,14 +438,6 @@ a.project-tab-bar-current {
   opacity: 0.7;
 }
 
-.about-heading {
-  padding-top: 88px;
-  font-size: 28px;
-  line-height: 48px;
-  font-weight: lighter;
-  margin-bottom: 0;
-}
-
 .about-description {
   font-size: 20px;
   font-weight: lighter;
@@ -392,69 +460,11 @@ a.project-tab-bar-current {
   font-weight: lighter;
 }
 
-
-
-
 @media only screen and (max-width : 768px) {
 
   .portfolio-section {
     margin: 56px 0;
   }
-  .case-study {
-    padding-top: 36px;
-    width: 80%;
-  }
-  .project {
-    border: 0;
-  }
-  .project-information {
-    padding: 1em 0 6em 0;
-  }
-
-  /*  index.html */
-  .about-heading {
-    padding-top: 88px;
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: lighter;
-    margin-bottom: 0;
-  }
-
-
-/*  about.html*/
-
-  .about-me-section {
-    padding: 0 88px;
-    margin-top: 88px;
-  }
-  .about-me-body {
-    width: 80%;
-  }
-
-  .about-me-section {
-    padding: 0 24px;
-    margin-top: 88px;
-  }
-/*
-  .about-heading {
-    font-weight: lighter;
-    margin-bottom: 0;
-  }
-
-  .about-description {
-    font-size: 20px;
-    font-weight: lighter;
-  }
-
-  .about-heading, .design-page-heading {
-    font-size: 28px;
-  } */
-
-  .intro-wrapper {
-    padding: 6.5em 3em 1em;
-  }
-
-
 
 }
 
@@ -490,42 +500,16 @@ a.project-tab-bar-current {
     line-height: 24px;
   }
 
-  .case-study {
-    padding-top: 20px;
-    width: 90%;
-  }
   .medium-text {
     font-size: 16px;
     line-height: 20px;
   }
 
-  /*  index.html */
-  .about-heading {
-    padding-top: 48px;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: lighter;
-    margin-bottom: 0;
-  }
   /*  about.html*/
 
   .about-me-section {
     padding: 0 8px;
     margin-top: 88px;
-  }
-    /* .about-description {
-      font-size: 14px;
-      font-weight: lighter;
-    }
-    .about-heading, .design-page-heading {
-      font-size: 20px;
-    } */
-  .intro-wrapper {
-    padding: 4em 3em 1em; /* change for responsive */
-  }
-
-  .project-section-wrapper {
-    padding: 1em 16px; /* change for responsive */
   }
 
   .portfolio-tab-bar {
@@ -574,10 +558,6 @@ a.project-tab-bar-current {
   font-weight: normal;
 }
 
-#design-section-container {
-  margin-top: 64px;
-}
-
 .line {
   opacity: 0.5;
 }
@@ -585,10 +565,3 @@ a.project-tab-bar-current {
 .nav-bar-nav.scrolled {
   background-color: white;
 }
-
-
-
-/*
-.case-img {
-  padding: 0 48px;
-} */
